@@ -85,4 +85,4 @@ jobs:
           with:
             context: .
             push: true
-            tags: tuddin/m2i-api:latest
+            tags: tuddin/api:latest
