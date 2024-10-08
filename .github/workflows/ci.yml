@@ -84,4 +84,5 @@ jobs:
           uses: docker/build-push-action@v6
           with:
             context: .
+            push: true
             tags: tuddin/m2i-api:latest
