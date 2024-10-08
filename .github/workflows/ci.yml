@@ -80,3 +80,8 @@ jobs:
           with:
             username: ${{ secrets.DOCKERHUB_USERNAME }}
             password: ${{ secrets.DOCKERHUB_PASSWORD }}
+        - name: Build and push
+          uses: docker/build-push-action@v6
+          with:
+            context: .
+            tags: tuddin/m2i-api:latest
